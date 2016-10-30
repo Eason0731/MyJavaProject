@@ -16,7 +16,7 @@ public class MyPopSort {
 				
 			}
 			
-			System.out.println(numberlist[i]); //This note added from new local branch: John
+			System.out.println(numberlist[i]); //This note added from new local branch -- John
 		}
 		
 	
