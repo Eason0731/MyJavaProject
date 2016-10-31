@@ -8,10 +8,10 @@ public class MyPopSort2 {
 		for (int i = 0 ; i < McLaren.length; i++){
 			for(int j = i+1 ; j < McLaren.length; j++){
 				if(McLaren[i] < McLaren[j]){
-					int t;
-					t = McLaren[i];
+					int temp;
+					temp = McLaren[i];
 					McLaren[i] = McLaren [j];
-					McLaren[j] = t;
+					McLaren[j] = temp;
 				}
 			}
 			
