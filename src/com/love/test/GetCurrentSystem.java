@@ -18,7 +18,11 @@ public class GetCurrentSystem {
 			System.out.println("This is a Mac OS X System");
 		}
 		
-		System.out.print("Your Current OS is: "+a);
+		else {
+			System.out.println("Sorry, I don't know what's your current OS name now");
+		}
+		
+		System.out.print("Your Current OS is: "+ a);
 	}
 
 }
