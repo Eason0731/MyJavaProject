@@ -11,7 +11,11 @@ public class GetCurrentSystem {
 		// TODO Auto-generated method stub
 		String a = GetCurrentOSName();
 		if (a.contains("Win")) {
-			System.out.println("This is a Windows OS");
+			System.out.println("This is a Windows System");
+		}
+		
+		else if (a.contains("Mac")){
+			System.out.println("This is a Mac OS X System");
 		}
 		
 		System.out.print("Your Current OS is: "+a);
