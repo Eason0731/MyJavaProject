@@ -3,7 +3,6 @@ package com.love.test;
 public class GetCurrentSystem {
 	
 	public static String GetCurrentOSName(){
-		//System.out.println(System.getProperties().getProperty("os.name"));
 		return System.getProperties().getProperty("os.name");
 	}
 
