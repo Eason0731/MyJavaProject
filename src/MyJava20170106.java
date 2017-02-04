@@ -47,7 +47,7 @@ public class MyJava20170106 {
 			System.out.println(MyOSName);
 		}
 		
-		System.out.println("You current operation system is: " +MyOSName);
+		System.out.println("You current operation  system is: " +MyOSName);
 
 	}
 
