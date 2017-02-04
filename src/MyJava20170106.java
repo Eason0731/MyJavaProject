@@ -33,6 +33,21 @@ public class MyJava20170106 {
 		long a = 3142566L;
 		myDouble(a);
 		
+		String MyOSName = System.getProperty("os.name");
+		System.out.println("========================");
+		if (MyOSName.contains("Win")){
+			System.out.println("This is Windows");
+		}
+		
+		else if (MyOSName.contains("Mac")){
+			System.out.println("This is Mac OS");
+		}
+		
+		else {
+			System.out.println(MyOSName);
+		}
+		
+		System.out.println("You current operation system is: " +MyOSName);
 
 	}
 
